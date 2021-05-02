@@ -80,9 +80,11 @@ const App = () => {
                 };
                 setDisplayData(obj);
                 fetchGraphData();
+
             }
         }
-    }, [data, location,chart]);
+    }, [data, location]);
+
 
     if (Object.keys(data).length === 0 && data.constructor === Object) {
         return (
