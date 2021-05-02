@@ -6,7 +6,7 @@ const Chart = (props) => {
         labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6"],
         datasets: [
             {
-                label: "Select Country ",
+                label: "No. of Cases ",
                 data: [
                     148120033,
                     149034010,
@@ -36,8 +36,8 @@ const Chart = (props) => {
         });
     }
 
-    console.log(props.ChartData);
-    console.log(typeof props, "Sdfs");
+    // console.log(props.ChartData);
+    // console.log(typeof props, "Sdfs");
     return (
         <div className="chart">
             <Line data={displayData} options={{ maintainAspectRatio: true }} />
