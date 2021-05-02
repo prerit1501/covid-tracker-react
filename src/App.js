@@ -82,7 +82,7 @@ const App = () => {
                 fetchGraphData();
             }
         }
-    }, [data, location]);
+    }, [data, location,chart]);
 
     if (Object.keys(data).length === 0 && data.constructor === Object) {
         return (
