@@ -1,0 +1,14 @@
+.question {
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px,
+
+}
+.answer {
+    margin-left:10px;
+}
+
+.all {
+    background-color: aqua;
+}
